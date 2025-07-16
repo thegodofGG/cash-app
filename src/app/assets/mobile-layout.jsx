@@ -3,7 +3,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import Header from "./header";
 
-const MobileLayout = ({ children, amount = "Rs. 0.00", onClose, onPay }) => {
+const MobileLayout = ({ children, amount = "$ 0.00", onClose, onPay }) => {
   const pathname = usePathname();
 
   return (
